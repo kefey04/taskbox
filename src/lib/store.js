@@ -15,7 +15,8 @@ const defaultTasks = [
     { id: '4', title: 'Something again', state: 'TASK_INBOX' },
 ];
 const TaskBoxData = {
-    tasks: defaultTasks,
+    // tasks: defaultTasks,
+    tasks: [],
     status: 'idle',
     error: null,
 };
